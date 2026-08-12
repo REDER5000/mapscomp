@@ -11,7 +11,7 @@ body {
 
 /* top bar */
 
-.top-bar {
+.topbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,17 +29,17 @@ body {
     height: auto;
 }
 
-.logo-text {
+.ltxt {
     margin-left: 10px;
 }
 
-.logo-text h1 {
+.ltxt h1 {
     color: #0B1F3A;
     font-size: 16px;
     font-weight: 700;
 }
 
-.logo-text p {
+.ltxt p {
     color: #666;
     font-size: 10px;
     margin-top: 2px;
@@ -67,7 +67,7 @@ body {
 
 /* hero */
 
-.made-hero {
+.mhero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,11 +77,11 @@ body {
     margin: 0 auto;
 }
 
-.made-hero-text {
+.made-htxt {
     max-width: 380px;
 }
 
-.made-hero-text h2 {
+.made-htxt h2 {
     font-size: 32px;
     color: #0B1F3A;
     margin-bottom: 10px;
@@ -100,12 +100,12 @@ body {
     line-height: 1.7;
 }
 
-.made-hero-image {
+.mhimg {
     flex: 1;
     max-width: 600px;
 }
 
-.made-hero-image img {
+.mhimg img {
     width: 100%;
     height: auto;
     display: block;
@@ -115,25 +115,25 @@ body {
 
 /* sectors */
 
-.sectors-section {
+.sectors {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 50px 30px 50px;
 }
 
-.sectors-section h2 {
+.sectors h2 {
     font-size: 20px;
     color: #0B1F3A;
     margin-bottom: 24px;
 }
 
-.sectors-wrapper {
+.swrap {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.sectors-track {
+.strack {
     display: flex;
     gap: 16px;
     overflow-x: auto;
@@ -141,11 +141,11 @@ body {
     padding-bottom: 6px;
 }
 
-.sectors-track::-webkit-scrollbar {
+.strack::-webkit-scrollbar {
     display: none;
 }
 
-.sector-card {
+.scrd {
     background: white;
     border-radius: 16px;
     padding: 20px;
@@ -154,7 +154,7 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
-.sector-icon {
+.scico {
     width: 42px;
     height: 42px;
     border-radius: 12px;
@@ -165,26 +165,26 @@ body {
     margin-bottom: 14px;
 }
 
-.sector-icon.blue { background: #E4EEFF; }
-.sector-icon.red { background: #FFE3E0; }
-.sector-icon.green { background: #E1F5E6; }
-.sector-icon.navy { background: #E4E8F5; }
-.sector-icon.orange { background: #FFE9DA; }
-.sector-icon.teal { background: #DFF6F5; }
+.scico.blue { background: #E4EEFF; }
+.scico.red { background: #FFE3E0; }
+.scico.green { background: #E1F5E6; }
+.scico.navy { background: #E4E8F5; }
+.scico.orange { background: #FFE9DA; }
+.scico.teal { background: #DFF6F5; }
 
-.sector-card h3 {
+.scrd h3 {
     font-size: 15px;
     color: #0B1F3A;
     margin-bottom: 8px;
 }
 
-.sector-card p {
+.scrd p {
     font-size: 12px;
     color: #666;
     line-height: 1.5;
 }
 
-.scroll-btn {
+.scrbtn {
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -196,54 +196,54 @@ body {
     transition: 0.25s;
 }
 
-.scroll-btn:hover {
+.scrbtn:hover {
     background: #0B1F3A;
     color: white;
 }
 
 /* states */
 
-.states-section {
+.sts {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 50px 50px 50px;
 }
 
-.states-section h2 {
+.sts h2 {
     font-size: 20px;
     color: #0B1F3A;
     margin-bottom: 24px;
 }
 
-.states-grid {
+.stgrid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 16px;
 }
 
-.state-card {
+.stcard {
     background: white;
     border-radius: 16px;
     padding: 20px;
     text-align: center;
 }
 
-.more-card {
+.mcard {
     background: #EAEDF3;
 }
 
-.state-icon {
+.stico {
     font-size: 28px;
     margin-bottom: 12px;
 }
 
-.state-card h3 {
+.stcard h3 {
     font-size: 14px;
     color: #0B1F3A;
     margin-bottom: 6px;
 }
 
-.state-card p {
+.stcard p {
     font-size: 11px;
     color: #666;
     line-height: 1.4;
@@ -251,19 +251,19 @@ body {
 
 /* bottom banner */
 
-.made-banner {
+.mbanner {
     position: relative;
     height: 220px;
     overflow: hidden;
 }
 
-.made-banner img {
+.mbanner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.made-banner-overlay {
+.mover {
     position: absolute;
     top: 0;
     left: 0;
@@ -275,7 +275,7 @@ body {
     padding-left: 60px;
 }
 
-.made-banner-overlay p {
+.mover p {
     color: white;
     font-size: 20px;
     line-height: 1.6;
@@ -290,20 +290,20 @@ body {
         display: none;
     }
 
-    .made-hero {
+    .mhero {
         flex-direction: column;
         text-align: center;
     }
 
-    .made-hero-text {
+    .made-htxt {
         max-width: 100%;
     }
 
-    .states-grid {
+    .stgrid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .made-banner-overlay {
+    .mover {
         padding-left: 30px;
         background: rgba(11,31,58,0.75);
     }

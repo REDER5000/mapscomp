@@ -1,5 +1,5 @@
-const filterButtons = document.querySelectorAll(".filter-btn");
-const storyCards = document.querySelectorAll(".story-card");
+const filterButtons = document.querySelectorAll(".fbtn");
+const storyCards = document.querySelectorAll(".scard");
 
 filterButtons.forEach(button => {
     button.addEventListener("click", () => {

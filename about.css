@@ -10,18 +10,18 @@ body {
 
 /* hero */
 
-.hero-image-wrap {
+.imgwrap {
     position: relative;
     width: 100%;
 }
 
-.hero-bg-img {
+.bgimg {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.hero-gradient {
+.grad {
     position: absolute;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ body {
     background: linear-gradient(90deg, rgba(247,249,252,0.95) 25%, rgba(247,249,252,0) 55%);
 }
 
-.hero-text {
+.htxt {
     position: absolute;
     top: 50%;
     left: 60px;
@@ -49,17 +49,17 @@ body {
     height: auto;
 }
 
-.logo-text {
+.ltxt {
     margin-left: 12px;
 }
 
-.logo-text h1 {
+.ltxt h1 {
     color: #0B1F3A;
     font-size: 20px;
     font-weight: 700;
 }
 
-.logo-text p {
+.ltxt p {
     color: #666;
     font-size: 12px;
     margin-top: 2px;
@@ -93,7 +93,7 @@ body {
     background: white;
 }
 
-.journey-btn {
+.jbtn {
     position: absolute;
     top: 30px;
     right: 50px;
@@ -108,20 +108,20 @@ body {
     transition: 0.3s;
 }
 
-.journey-btn:hover {
+.jbtn:hover {
     background: #0F2F60;
     transform: scale(1.05);
 }
 
-.hero-inner {
+.hinner {
     padding: 130px 60px 40px 60px;
 }
 
-.hero-text {
+.htxt {
     max-width: 420px;
 }
 
-.hero-text h2 {
+.htxt h2 {
     font-size: 44px;
     line-height: 1.1;
     font-weight: 700;
@@ -129,11 +129,11 @@ body {
     margin-bottom: 18px;
 }
 
-.hero-text h2 span {
+.htxt h2 span {
     color: #1E7A3D;
 }
 
-.hero-text p {
+.htxt p {
     font-size: 15px;
     line-height: 1.7;
     color: #4b4b4b;
@@ -143,7 +143,7 @@ body {
 
 /* what is section */
 
-.what-is {
+.wi {
     display: flex;
     justify-content: space-between;
     gap: 60px;
@@ -151,24 +151,24 @@ body {
     background: white;
 }
 
-.what-is-left {
+.wil {
     max-width: 380px;
 }
 
-.what-is-left h2 {
+.wil h2 {
     font-size: 26px;
     color: #0B1F3A;
     margin-bottom: 18px;
 }
 
-.what-is-left p {
+.wil p {
     font-size: 14px;
     line-height: 1.8;
     color: #555;
     margin-bottom: 24px;
 }
 
-.read-more-btn {
+.rmbtn {
     background: #0B1F3A;
     color: white;
     border: none;
@@ -180,12 +180,12 @@ body {
     transition: 0.3s;
 }
 
-.read-more-btn:hover {
+.rmbtn:hover {
     background: #173D7A;
     transform: translateY(-2px);
 }
 
-.what-is-right {
+.wir {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 50px;
@@ -199,7 +199,7 @@ body {
     gap: 14px;
 }
 
-.point-icon {
+.pico {
     width: 42px;
     height: 42px;
     border-radius: 50%;
@@ -210,15 +210,15 @@ body {
     flex-shrink: 0;
 }
 
-.point-icon.blue {
+.pico.blue {
     background: #E4EEFF;
 }
 
-.point-icon.orange {
+.pico.orange {
     background: #FFE9DA;
 }
 
-.point-icon.green {
+.pico.green {
     background: #E1F5E6;
 }
 
@@ -265,13 +265,13 @@ body {
     z-index: 0;
 }
 
-.timeline-item {
+.titem {
     position: relative;
     z-index: 1;
     max-width: 180px;
 }
 
-.timeline-item::before {
+.titem::before {
     content: "";
     display: block;
     width: 14px;
@@ -281,7 +281,7 @@ body {
     margin-bottom: 14px;
 }
 
-.timeline-item .year {
+.titem .year {
     display: block;
     font-weight: 700;
     color: #0B1F3A;
@@ -289,7 +289,7 @@ body {
     font-size: 15px;
 }
 
-.timeline-item p {
+.titem p {
     font-size: 12px;
     color: #666;
     line-height: 1.5;
@@ -297,7 +297,7 @@ body {
 
 /* our vision */
 
-.our-vision {
+.ovision {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -306,29 +306,29 @@ body {
     background: #0B1F3A;
 }
 
-.vision-left {
+.vl {
     max-width: 420px;
 }
 
-.vision-left h2 {
+.vl h2 {
     color: white;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.vision-left p {
+.vl p {
     color: #cfd6e4;
     font-size: 16px;
     line-height: 1.7;
     font-style: italic;
 }
 
-.vision-right {
+.vr {
     flex: 1;
     max-width: 550px;
 }
 
-.vision-right img {
+.vr img {
     width: 100%;
     height: 320px;
     object-fit: cover;
@@ -343,16 +343,16 @@ body {
         display: none;
     }
 
-    .hero-inner {
+    .hinner {
         flex-direction: column;
         padding: 130px 30px 0 30px;
     }
 
-    .hero-text {
+    .htxt {
         max-width: 100%;
     }
 
-    .what-is {
+    .wi {
         flex-direction: column;
         padding: 50px 30px;
     }
@@ -366,13 +366,13 @@ body {
         display: none;
     }
 
-    .our-vision {
+    .ovision {
         flex-direction: column;
         padding: 50px 30px;
         text-align: center;
     }
 
-    .vision-left {
+    .vl {
         max-width: 100%;
     }
 
